@@ -1,4 +1,4 @@
-#### Technical Skills: Python, SQL, Tableau, Power BI 
+## Technical Skills
 - Tableau, Power BI for data visualization.  
 - Python, Excel for Data analysis.  
 - Java and Python for ETL.  
