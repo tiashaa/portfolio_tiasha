@@ -28,21 +28,28 @@ This project walks through a full machine learning pipeline using the Telecommun
   <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
   <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
   <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
-</div>
+</div>  
 
-### Bangla & English Image to Text  
+
+### Time Series Forecasting  
+[Beijing Air Pollution Prediction](https://colab.research.google.com/drive/1hww8gPPFgfT0I5in6KNDrx-CK1eg-gDd?usp=sharing)
+It is a complete deep learning-based approach to time series forecasting using an LSTM model. The dataset is loaded and processed by converting the datetime column to a proper datetime index, handling missing values with forward fill, and ensuring the data is in a continuous time series format. It visualizes trends and seasonality in the data to better understand its structure. The values are normalized using MinMaxScaler to scale features between 0 and 1, which is critical for stable LSTM training. The data is then split into training and testing sets without shuffling, and a custom function is defined to convert the time series into supervised learning format by creating sequences of past values as input to predict the next value. An LSTM model is constructed using Keras Sequential API with LSTM and Dense layers, compiled with the mean_squared_error loss and adam optimizer. The model is trained using model.fit(), and predictions are made on the test set. The predicted results are compared visually and evaluated using mean_squared_error. Finally, the model is used for multi-step future forecasting by iteratively feeding back predicted values, showcasing the model's ability to forecast beyond the available data range.
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/ff63451f-4752-4878-9e33-e08da11b1527" width="500"/>
+  <img src="https://github.com/user-attachments/assets/956e7ced-c56c-4d51-8f5e-6ee8474d8dc0" width="500" />
+</div>  
+
+### Bangla & English Image to Text   
 [Image to Text](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
 
-This notebook demonstrates how to perform Optical Character Recognition (OCR) on mixed Bengali and English text using pytesseract, a Python wrapper for Tesseract OCR. It guides through setting up Bengali language support by installing the ben.traineddata model, configuring Tesseract to recognize Bengali (lang='ben') as well as English, and processing sample book-page images. The workflow includes preprocessing steps like image cleaning and setting up the correct tessdata directory, followed by invoking pytesseract.image_to_string() to extract multilingual text from input images. It's an applied example of extending Tesseract’s default English OCR to handle Bengali script effectively.   
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
-  <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
-  <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
-</div>
+This project shows how to perform Optical Character Recognition (OCR) on mixed Bengali and English text using pytesseract, a Python wrapper for Tesseract OCR. It guides through setting up Bengali language support by installing the ben.traineddata model, configuring Tesseract to recognize Bengali (lang='ben') as well as English, and processing sample book-page images. The workflow includes preprocessing steps like image cleaning and setting up the correct tessdata directory, followed by invoking pytesseract.image_to_string() to extract multilingual text from input images. It's an applied example of extending Tesseract’s default English OCR to handle Bengali script effectively.   
 
-### Machine Learning Algorithms Using Python  
+
+### Machine Learning Algorithms Using Python    
 [Machine Learning Algorithms](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
-This is a collection of python codes of making machine learning algorithms from scratch for learning purpose.  
+This is a collection of python codes of making machine learning algorithms from scratch for learning purpose.    
 
 ### Web Scraping: Hourly Weather Data for Bangladesh  
 [Hourly Weather Data for Bangladesh](https://colab.research.google.com/drive/1TftZPDQ4bkrb4Ygg7ke1Bm56MPejJxTo?usp=sharing)
