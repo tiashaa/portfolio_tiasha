@@ -30,21 +30,21 @@ This project walks through a full machine learning pipeline using the Telecommun
   <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
 </div>
 
-### Bangla & English Image to Text
-[Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
+### Bangla & English Image to Text  
+[Image to Text](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
 
-This notebook demonstrates how to perform Optical Character Recognition (OCR) on mixed Bengali and English text using pytesseract, a Python wrapper for Tesseract OCR. It guides through setting up Bengali language support by installing the ben.traineddata model, configuring Tesseract to recognize Bengali (lang='ben') as well as English, and processing sample book-page images. The workflow includes preprocessing steps like image cleaning and setting up the correct tessdata directory, followed by invoking pytesseract.image_to_string() to extract multilingual text from input images. It's an applied example of extending Tesseract’s default English OCR to handle Bengali script effectively.  
+This notebook demonstrates how to perform Optical Character Recognition (OCR) on mixed Bengali and English text using pytesseract, a Python wrapper for Tesseract OCR. It guides through setting up Bengali language support by installing the ben.traineddata model, configuring Tesseract to recognize Bengali (lang='ben') as well as English, and processing sample book-page images. The workflow includes preprocessing steps like image cleaning and setting up the correct tessdata directory, followed by invoking pytesseract.image_to_string() to extract multilingual text from input images. It's an applied example of extending Tesseract’s default English OCR to handle Bengali script effectively.   
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
   <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
   <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
 </div>
 
-### Machine Learning Algorithms Using Python
+### Machine Learning Algorithms Using Python  
 [Machine Learning Algorithms](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
+This is a collection of python codes of making machine learning algorithms from scratch for learning purpose.  
 
-
-### Web Scraping: Hourly Weather Data for Bangladesh
+### Web Scraping: Hourly Weather Data for Bangladesh  
 [Hourly Weather Data for Bangladesh](https://colab.research.google.com/drive/1TftZPDQ4bkrb4Ygg7ke1Bm56MPejJxTo?usp=sharing)
 This Colab notebook focuses on web scraping and data visualization related to electricity imports and fuel sources. It uses tools like requests and BeautifulSoup to extract data on electricity imports from neighboring countries such as India and Nepal, as well as the contributions of different fuel sources like gas, coal, hydro, and solar. After cleaning and organizing the data, the notebook visualizes trends over time using line and bar charts to highlight import volumes and the share of various energy sources. These visualizations provide insights into energy dependency patterns, seasonal shifts in fuel usage, and the role of each country in electricity imports.  
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -55,7 +55,7 @@ This Colab notebook focuses on web scraping and data visualization related to el
 
 
 
-### Tableau Development
+### Tableau Development  
 [The Rise of Android in 2008-14](https://public.tableau.com/app/profile/hridita.tiasha/viz/TheRiseofAndroid2008-14_17535284176230/TheRiseofAndroidin2008-14)
 
 
@@ -71,11 +71,11 @@ This Colab notebook focuses on web scraping and data visualization related to el
 </div>
 
 
-## Certifications 
+## Certifications  
 - [Hackerrank: SQL Intermidiate](https://www.hackerrank.com/certificates/d29b94a7b6d3)				       		
 - [Hackerrank: Python Basic](https://www.hackerrank.com/certificates/4c2874f1a4b7)
 - 
-## Competitions
+## Competitions  
 - Runners up at the Category LFR in Essonance(2019)
 - Runners up at the Category LFR in Mecceleration(2019)	 			        		
 	
