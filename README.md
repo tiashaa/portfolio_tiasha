@@ -74,7 +74,7 @@ This Colab notebook focuses on web scraping and data visualization related to el
 ## Certifications  
 - [Hackerrank: SQL Intermidiate](https://www.hackerrank.com/certificates/d29b94a7b6d3)				       		
 - [Hackerrank: Python Basic](https://www.hackerrank.com/certificates/4c2874f1a4b7)
-- 
+
 ## Competitions  
 - Runners up at the Category LFR in Essonance(2019)
 - Runners up at the Category LFR in Mecceleration(2019)	 			        		
