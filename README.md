@@ -8,22 +8,22 @@
 
 ## Work Experience
 **Specialist @ Robi Axiata Limited - Digitalization & Autonomous Operation (_July 2022 - Mar 2024_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+- Extraction, transformation, and loading of data using SQL, Python along with Application development and tools management.
+- Assemble, analyze, and organize large, complex data with Analytical and problem solving abilities, applying Machine Lrarning algorithm to solve real life problem(clustering customers on complain data, weather prediction etc.
 
 **Senior Engineer @ Edotco Group Limited - Data Science & Analytics (_Mar 2024 - Aug 2024_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+- Using cloud solutions(AWS, S3, Lambda) for data fetching and analysis, EDA for global platform
+- Data visualization to show trends, important features using POWER BI, Machine Learning Engineering to do predictions 
 
 **Performance Management Expert @ Grameenphone - Finance (_Aug 2024 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+- Automation of reports, needed to circulate daily
+- Analyze data to predict savings, helping MT with data driven decision making
 
 ## Projects
 ### Customer Churn Prediction
 [Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
+This project walks through a full machine learning pipeline using the Telecommunication dataset. It begins with data exploration and preprocessing, including handling missing values, converting data types, encoding categorical variables, and scaling numerical features. Exploratory analysis reveals that customers with month-to-month contracts, higher monthly charges, or fiber optic internet are more likely to churn, while long-tenure customers and those with bundled services are more likely to stay. Various classification models like logistic regression, random forest, and gradient boosting are trained and evaluated using accuracy, F1-score, and ROC-AUC, achieving strong performance. The notebook highlights the value of churn prediction in identifying high-risk customers and enabling businesses to take proactive retention measures.  
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
   <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
@@ -33,7 +33,7 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 ### Bangla & English Image to Text
 [Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+This notebook demonstrates how to perform Optical Character Recognition (OCR) on mixed Bengali and English text using pytesseract, a Python wrapper for Tesseract OCR. It guides through setting up Bengali language support by installing the ben.traineddata model, configuring Tesseract to recognize Bengali (lang='ben') as well as English, and processing sample book-page images. The workflow includes preprocessing steps like image cleaning and setting up the correct tessdata directory, followed by invoking pytesseract.image_to_string() to extract multilingual text from input images. It's an applied example of extending Tesseract’s default English OCR to handle Bengali script effectively.  
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
   <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
@@ -43,17 +43,17 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 ### Machine Learning Algorithms Using Python
 [Machine Learning Algorithms](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
 ### Web Scraping: Hourly Weather Data for Bangladesh
 [Hourly Weather Data for Bangladesh](https://colab.research.google.com/drive/1TftZPDQ4bkrb4Ygg7ke1Bm56MPejJxTo?usp=sharing)
+This Colab notebook focuses on web scraping and data visualization related to electricity imports and fuel sources. It uses tools like requests and BeautifulSoup to extract data on electricity imports from neighboring countries such as India and Nepal, as well as the contributions of different fuel sources like gas, coal, hydro, and solar. After cleaning and organizing the data, the notebook visualizes trends over time using line and bar charts to highlight import volumes and the share of various energy sources. These visualizations provide insights into energy dependency patterns, seasonal shifts in fuel usage, and the role of each country in electricity imports.  
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <img src="https://github.com/user-attachments/assets/5fcfcb8e-3c2b-4f7f-b1c1-3951ea19006a" width="500" height = "200" />
 <img src="https://github.com/user-attachments/assets/a05a326e-4b41-46f1-bd2a-f2c18d20df70" width="500" height = "200"/>
 
 </div>
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+
 
 ### Tableau Development
 [The Rise of Android in 2008-14](https://public.tableau.com/app/profile/hridita.tiasha/viz/TheRiseofAndroid2008-14_17535284176230/TheRiseofAndroidin2008-14)
@@ -71,9 +71,11 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 </div>
 
 
-## Certifications & Competitions
+## Certifications 
 - [Hackerrank: SQL Intermidiate](https://www.hackerrank.com/certificates/d29b94a7b6d3)				       		
 - [Hackerrank: Python Basic](https://www.hackerrank.com/certificates/4c2874f1a4b7)
+- 
+## Competitions
 - Runners up at the Category LFR in Essonance(2019)
 - Runners up at the Category LFR in Mecceleration(2019)	 			        		
 	
