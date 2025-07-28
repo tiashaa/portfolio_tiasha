@@ -17,7 +17,7 @@
 
 ## Projects
 ### Customer Churn Prediction
-[Project](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
+[Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -28,12 +28,12 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 
 
 ### Machine Learning Algorithms Using Python
-[Project](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
+[Machine Learning Algorithms](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
 
 Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
 ### Web Scraping: Hourly Weather Data for Bangladesh
-[Project](https://colab.research.google.com/drive/1TftZPDQ4bkrb4Ygg7ke1Bm56MPejJxTo?usp=sharing)
+[Hourly Weather Data for Bangladesh](https://colab.research.google.com/drive/1TftZPDQ4bkrb4Ygg7ke1Bm56MPejJxTo?usp=sharing)
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <img src="https://github.com/user-attachments/assets/5fcfcb8e-3c2b-4f7f-b1c1-3951ea19006a" width="500" height = "200" />
 <img src="https://github.com/user-attachments/assets/a05a326e-4b41-46f1-bd2a-f2c18d20df70" width="500" height = "200"/>
@@ -71,10 +71,3 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 - B.Sc, Computer Science & Engineering | Islamic University of Technology (_May 2022_)								       		
 - H.S.C, Science	| Holy Cross College (_June 2017_)	 			        		
 - S.S.C, Science | Jhikargacha GOVT ML High School (_June 2015_)
-
-
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
-
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
