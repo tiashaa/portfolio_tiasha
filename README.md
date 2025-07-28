@@ -58,22 +58,21 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 </div>
 
 
-
+## Certifications & Competitions
+- [Hackerrank: SQL Intermidiate](https://www.hackerrank.com/certificates/d29b94a7b6d3)				       		
+- [Hackerrank: Python Basic](https://www.hackerrank.com/certificates/4c2874f1a4b7)
+- Runners up at the Category LFR in Essonance(2019)
+- Runners up at the Category LFR in Mecceleration(2019)	 			        		
+	
 
 
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)al Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
+- B.Sc, Computer Science & Engineering | Islamic University of Technology (_May 2022_)								       		
+- H.S.C, Science	| Holy Cross College (_June 2017_)	 			        		
+- S.S.C, Science | Jhikargacha GOVT ML High School (_June 2015_)
 
-- [Data Science Blog](https://medium.com/@shawhin)
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
 - A Brief Introduction to Optimization - GSP Seminar, Fall 2019
 - Weeks of Welcome Poster Competition - UTD, Fall 2019
 - A Brief Introduction to Networks - GSP Seminar, Spring 2019
