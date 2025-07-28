@@ -1,9 +1,9 @@
 ## Technical Skills
-- Tableau, Power BI for data visualization.  
-- Python, Excel for Data analysis.  
-- Java and Python for ETL.  
-- SQL for retrieving data from a database.  
-- Powerapps & Power Automate for application development.  
+- **Tableau, Power BI** for data visualization.  
+- **Python, Excel** for Data analysis.  
+- **Java and Python** for ETL.  
+- **SQL** for retrieving data from a database.  
+- **Powerapps & Power Automate** for application development.  
 
 
 ## Work Experience
