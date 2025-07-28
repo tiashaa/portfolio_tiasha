@@ -30,6 +30,15 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
   <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
 </div>
 
+### Bangla & English Image to Text
+[Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
+
+Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
+  <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
+  <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
+</div>
 
 ### Machine Learning Algorithms Using Python
 [Machine Learning Algorithms](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
