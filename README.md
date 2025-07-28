@@ -1,6 +1,10 @@
-# Hridita Nur Zaman Tiasha
+#### Technical Skills: Python, SQL, Tableau, Power BI 
+- Tableau, Power BI for data visualization.  
+- Python, Excel for Data analysis.  
+- Java and Python for ETL.  
+- SQL for retrieving data from a database.  
+- Powerapps & Power Automate for application development.  
 
-#### Technical Skills: Python, SQL, Tableau, Power BI, 
 
 ## Work Experience
 **Specialist @ Robi Axiata Limited - Digitalization & Autonomous Operation (_July 2022 - Mar 2024_)**
@@ -68,6 +72,6 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 
 
 ## Education
-- B.Sc, Computer Science & Engineering | Islamic University of Technology (_May 2022_)								       		
-- H.S.C, Science	| Holy Cross College (_June 2017_)	 			        		
-- S.S.C, Science | Jhikargacha GOVT ML High School (_June 2015_)
+- B.Sc, Computer Science & Engineering  | Islamic University of Technology (_May 2022_)			       		
+- H.S.C, Science			| Holy Cross College (_June 2017_)	 			        	
+- S.S.C, Science 			| Jhikargacha GOVT ML High School (_June 2015_)
