@@ -103,6 +103,7 @@ This Colab notebook focuses on web scraping and data visualization related to el
 
 
 ## Education
+- M.Sc, Data Science & analytics  | East West University (_Ongoing_)	
 - B.Sc, Computer Science & Engineering  | Islamic University of Technology (_May 2022_)			       		
 - H.S.C, Science			| Holy Cross College (_June 2017_)	 			        	
 - S.S.C, Science 			| Jhikargacha GOVT ML High School (_June 2015_)
