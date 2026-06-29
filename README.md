@@ -7,7 +7,7 @@
 
 ## Ongoing Research 
 - Explainable and Statistically Validated Bangla Sentiment Analysis: A Comparative Study of Classical, Deep 
-Learning, and Transformer Models. (submitted to ICCA 2026) 
+Learning, and Transformer Models. [submitted to ICCA 2026, click here](https://colab.research.google.com/drive/1fMUrBPIBXx3RCSEfh7EME1Rm7dLuuVHf?usp=sharing) 
 - Electricity Demand forecasting for Bangladesh with hybrid classical statistical and machine learning model. 
 - Sentiment Analysis on Multilingual Customer Reviews of Mobile Telecommunication Services Using 
 Machine Learning and Deep Learning techniques. 
@@ -17,17 +17,29 @@ MICS Data(working paper)
 
 
 ## Work Experience
-**Specialist @ Robi Axiata Limited - Digitalization & Autonomous Operation (_July 2022 - Mar 2024_)**
-- Extraction, transformation, and loading of data using SQL, Python along with Application development and tools management.
-- Assemble, analyze, and organize large, complex data with Analytical and problem solving abilities, applying Machine Lrarning algorithm to solve real life problem(clustering customers on complain data, weather prediction etc.
+**Supply Chain Performance Management Expert @ Grameenphone - Finance (_Aug 2024 - Present_)**
+- Inventory Optimization Framework for Telecom Using Demand Forecasting and Inventory Classification 
+- Assemble, Analyze and organize large data generated from system logs.  
+- Visualize data on power BI Dashboards 
+- Automation of reports, which are needed to circulate regularly. 
+- Analyze data to forecast savings, helping with data driven decision making 
+- Developing Machine Learning models to forecast business trend over time.
+  
 
 **Senior Engineer @ Edotco Group Limited - Data Science & Analytics (_Mar 2024 - Aug 2024_)**
-- Using cloud solutions(AWS, S3, Lambda) for data fetching and analysis, EDA for global platform
-- Data visualization to show trends, important features using POWER BI, Machine Learning Engineering to do predictions 
-
-**Performance Management Expert @ Grameenphone - Finance (_Aug 2024 - Present_)**
-- Automation of reports, needed to circulate daily
-- Analyze data to predict savings, helping MT with data driven decision making
+- Using cloud solutions(AWS, S3, Lambda) for data fetching and analysis, EDA for global platform 
+- Data visualization to show trends, important features using POWER BI, Machine Learning Engineering to 
+do predictions  
+- Collaborating with the data architects, engineers,analysts, and scientists of different countries. 
+- Image processing to automate billing systems.
+- 
+**Specialist @ Robi Axiata Limited - Assurance & Fulfilment (_July 2022 - Mar 2024_)**
+- Assemble, analyze, and organize large, complex data with Analytical and problem solving abilities.  
+- Real life clustering and prediction using machine learning models. 
+- Data visualization to show trends, important features using TABLEAU and using Machine Learning 
+Engineering to do predictions  
+- Extraction, transformation, and loading of data using SQL, Python along with Application development and 
+tools management.
 
 ## Projects
 ### Customer Churn Prediction
