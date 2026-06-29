@@ -3,7 +3,17 @@
 - **Python, Excel** for Data analysis.  
 - **Java and Python** for ETL.  
 - **SQL** for retrieving data from a database.  
-- **Powerapps & Power Automate** for application development.  
+- **Powerapps & Power Automate** for application development.
+
+## Ongoing Research 
+- Explainable and Statistically Validated Bangla Sentiment Analysis: A Comparative Study of Classical, Deep 
+Learning, and Transformer Models. (submitted to ICCA 2026) 
+- Electricity Demand forecasting for Bangladesh with hybrid classical statistical and machine learning model. 
+- Sentiment Analysis on Multilingual Customer Reviews of Mobile Telecommunication Services Using 
+Machine Learning and Deep Learning techniques. 
+- Determinants of Menstrual Hygiene Management Among Women of Reproductive Age in Bangladesh: A 
+Cross-Sectional Study Comparing Multinomial Logistic and Proportional Odds Regression Models Using 
+MICS Data(working paper)
 
 
 ## Work Experience
