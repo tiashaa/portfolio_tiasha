@@ -1,9 +1,15 @@
-## Technical Skills
-- **Tableau, Power BI** for data visualization.  
-- **Python, Excel** for Data analysis.  
-- **Java and Python** for ETL.  
-- **SQL** for retrieving data from a database.  
-- **Powerapps & Power Automate** for application development.
+## Research Methodology & Technical Skills 
+- **Programming & Development:** Python (TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn), 
+SQL, R 
+- **Machine Learning & AI:** Supervised/Unsupervised Learning, Neural Networks, NLP & Sentiment Analysis, 
+Time Series Forecasting, Clustering, Image Processing, Explainable AI (XAI).
+- **Statistical Methods:** ARIMA/ARMA/SARIMAX, Regression Analysis (Multinomial Logistic, Proportional 
+Odds), Min-Max Normalization, Hypothesis Testing, Cross-Sectional Study Design
+- **Data Engineering & Cloud:** ETL Pipelines, AWS (S3, Lambda), Data Extraction & Transformation, 
+Automated Reporting Systems 
+- **Visualization & BI Tools:** Tableau, Power BI, Matplotlib, Seaborn
+- **Research Domains:** Telecommunications Analytics, Supply chain analytics, Air Quality Forecasting, Public 
+Health Data Analysis, Cybersecurity (Web Vulnerability Assessment) 
 
 ## Ongoing Research 
 - Explainable and Statistically Validated Bangla Sentiment Analysis: A Comparative Study of Classical, Deep 
@@ -32,7 +38,7 @@ MICS Data(working paper)
 do predictions  
 - Collaborating with the data architects, engineers,analysts, and scientists of different countries. 
 - Image processing to automate billing systems.
-- 
+  
 **Specialist @ Robi Axiata Limited - Assurance & Fulfilment (_July 2022 - Mar 2024_)**
 - Assemble, analyze, and organize large, complex data with Analytical and problem solving abilities.  
 - Real life clustering and prediction using machine learning models. 
