@@ -48,6 +48,16 @@ Engineering to do predictions
 tools management.
 
 ## Projects
+### Security Awareness Dashboard
+
+SecurePulse is a Python-based cybersecurity awareness and risk monitoring project that simulates enterprise security data to evaluate an organization's security posture. Using Python libraries such as Pandas, NumPy, and Matplotlib, the project generates and analyzes employee security metrics, including phishing simulation results, security training completion, risk scores, and departmental cyber risk.
+
+The dashboard visualizes key security KPIs, monthly risk trends, phishing failure rates, department-wise risk comparisons, and a risk heatmap, enabling organizations to monitor the effectiveness of security awareness initiatives and identify high-risk areas. The project demonstrates the use of Python for cybersecurity data analysis, reporting, and decision support in an Information Security Management (ISMS) context.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/7bd0865e-768b-435d-969f-5c1256df13c0" width="500"/>
+</div>  
+  <br>
 ### Customer Churn Prediction
 [Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)  
 This project walks through a full machine learning pipeline using the Telecommunication dataset. It begins with data exploration and preprocessing, including handling missing values, converting data types, encoding categorical variables, and scaling numerical features. Exploratory analysis reveals that customers with month-to-month contracts, higher monthly charges, or fiber optic internet are more likely to churn, while long-tenure customers and those with bundled services are more likely to stay. Various classification models like logistic regression, random forest, and gradient boosting are trained and evaluated using accuracy, F1-score, and ROC-AUC, achieving strong performance. The notebook highlights the value of churn prediction in identifying high-risk customers and enabling businesses to take proactive retention measures.  
