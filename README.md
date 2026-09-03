@@ -1,147 +1,381 @@
-## Research Methodology & Technical Skills 
-- **Programming & Development:** Python (TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn), 
-SQL, R 
-- **Machine Learning & AI:** Supervised/Unsupervised Learning, Neural Networks, NLP & Sentiment Analysis, 
-Time Series Forecasting, Clustering, Image Processing, Explainable AI (XAI).
-- **Statistical Methods:** ARIMA/ARMA/SARIMAX, Regression Analysis (Multinomial Logistic, Proportional 
-Odds), Min-Max Normalization, Hypothesis Testing, Cross-Sectional Study Design
-- **Data Engineering & Cloud:** ETL Pipelines, AWS (S3, Lambda), Data Extraction & Transformation, 
-Automated Reporting Systems 
-- **Visualization & BI Tools:** Tableau, Power BI, Matplotlib, Seaborn
-- **Research Domains:** Telecommunications Analytics, Supply chain analytics, Air Quality Forecasting, Public 
-Health Data Analysis, Cybersecurity (Web Vulnerability Assessment) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hridita Nur Zaman Tiasha — Data Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#f2eee6;
+    --ink-soft:#a8a396;
+    --paper:#14131a;
+    --paper2:#1b1a24;
+    --line:#312f3d;
+    --accent:#5ee0b0;
+    --accent2:#ff9d6c;
+    --accent3:#a78bfa;
+    --accent-soft:#1d2b28;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    background-image:
+      radial-gradient(60vw 40vw at 85% -5%, rgba(94,224,176,.10), transparent 60%),
+      radial-gradient(55vw 45vw at 0% 15%, rgba(167,139,250,.10), transparent 55%),
+      radial-gradient(50vw 40vw at 60% 100%, rgba(255,157,108,.07), transparent 60%);
+    background-attachment:fixed;
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
 
-## Ongoing Research 
-- Explainable and Statistically Validated Bangla Sentiment Analysis: A Comparative Study of Classical, Deep 
-Learning, and Transformer Models. [submitted to ICCA 2026, click here](https://colab.research.google.com/drive/1fMUrBPIBXx3RCSEfh7EME1Rm7dLuuVHf?usp=sharing) 
-- Electricity Demand forecasting for Bangladesh with hybrid classical statistical and machine learning model. 
-- Sentiment Analysis on Multilingual Customer Reviews of Mobile Telecommunication Services Using 
-Machine Learning and Deep Learning techniques. 
-- Determinants of Menstrual Hygiene Management Among Women of Reproductive Age in Bangladesh: A 
-Cross-Sectional Study Comparing Multinomial Logistic and Proportional Odds Regression Models Using 
-MICS Data(working paper)
+  /* Nav */
+  nav{
+    position:sticky;top:0;z-index:20;
+    background:rgba(20,19,26,.8);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+  nav .name{
+    font-family:'Fraunces',serif;font-weight:600;font-size:18px;
+    background:linear-gradient(100deg,var(--accent),var(--accent3));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  nav .links{display:flex;gap:26px}
+  nav a{color:var(--ink-soft);text-decoration:none;font-size:14.5px;font-weight:500;transition:color .2s}
+  nav a:hover{color:var(--accent)}
+  @media(max-width:640px){nav .links{gap:16px;font-size:13px}nav .links a:nth-child(4){display:none}}
+
+  /* Hero */
+  header{padding:88px 0 60px;border-bottom:1px solid var(--line)}
+  header h1{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:clamp(40px,7.5vw,64px);line-height:1.02;
+    letter-spacing:-.015em;margin-bottom:20px;
+    background:linear-gradient(105deg,var(--accent) 0%,var(--accent3) 55%,var(--accent2) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  header .role{
+    display:inline-block;font-size:15px;color:var(--accent);font-weight:600;
+    margin-bottom:22px;padding:5px 14px;border-radius:999px;
+    background:var(--accent-soft);border:1px solid rgba(94,224,176,.25);
+  }
+  header .lede{font-size:18.5px;color:var(--ink-soft);max-width:64ch;line-height:1.7}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px;font-size:14.5px;color:var(--ink-soft)}
+  .meta a,.meta span{padding:7px 15px;border-radius:999px;border:1px solid var(--line);transition:all .2s}
+  .meta a{color:var(--ink);text-decoration:none}
+  .meta a:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+
+  /* Sections */
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  .kicker{
+    font-family:'Fraunces',serif;font-size:14px;font-weight:600;
+    color:var(--accent);margin-bottom:6px;
+  }
+  h2{
+    font-family:'Fraunces',serif;font-weight:600;font-size:29px;margin-bottom:26px;
+    letter-spacing:-.01em;position:relative;padding-left:16px;
+  }
+  h2::before{
+    content:"";position:absolute;left:0;top:8px;bottom:8px;width:4px;border-radius:2px;
+    background:linear-gradient(var(--accent),var(--accent3));
+  }
+  /* rotate accents per section */
+  #research .kicker{color:var(--accent3)}
+  #research h2::before{background:linear-gradient(var(--accent3),var(--accent2))}
+  #experience .kicker{color:var(--accent2)}
+  #experience h2::before{background:linear-gradient(var(--accent2),var(--accent))}
+  #education .kicker{color:var(--accent)}
+  #skills .kicker{color:var(--accent3)}
+  #skills h2::before{background:linear-gradient(var(--accent3),var(--accent))}
+  #teaching .kicker{color:var(--accent2)}
+  #teaching h2::before{background:linear-gradient(var(--accent2),var(--accent3))}
+  p+p{margin-top:14px}
+  .about p{color:var(--ink-soft);max-width:68ch}
+
+  /* Publications */
+  .pub{
+    padding:20px;border-radius:12px;margin-bottom:12px;
+    background:var(--paper2);border:1px solid var(--line);
+    transition:transform .2s,border-color .2s;
+  }
+  .pub:hover{transform:translateX(6px);border-color:rgba(167,139,250,.4)}
+  .pub .title{font-weight:600;font-size:17.5px;line-height:1.45;margin-bottom:8px}
+  .pub .venue{font-size:14.5px;color:var(--ink-soft);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .tag{
+    display:inline-block;font-size:12px;font-weight:600;letter-spacing:.02em;
+    padding:3px 10px;border-radius:999px;
+  }
+  .tag.acc{background:var(--accent-soft);color:var(--accent);border:1px solid rgba(94,224,176,.3)}
+  .tag.sub{background:#2a2620;color:#f0b878;border:1px solid rgba(240,184,120,.3)}
+
+  /* Experience */
+  .job{display:grid;grid-template-columns:130px 1fr;gap:24px;padding:22px 0;border-top:1px solid var(--line)}
+  .job:first-of-type{border-top:none;padding-top:0}
+  .job .when{
+    font-size:13px;color:var(--accent2);font-weight:600;padding-top:3px;
+  }
+  .job h3{font-size:17px;font-weight:600;margin-bottom:2px}
+  .job .org{font-size:14.5px;color:var(--accent);margin-bottom:10px;font-weight:500}
+  .job ul{list-style:none;font-size:15px;color:var(--ink-soft)}
+  .job li{padding-left:18px;position:relative;margin-bottom:6px;line-height:1.55}
+  .job li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:linear-gradient(var(--accent),var(--accent3))}
+  @media(max-width:640px){.job{grid-template-columns:1fr;gap:8px}}
+
+  /* Education */
+  .edu{display:grid;grid-template-columns:130px 1fr;gap:24px;padding:16px 0;border-top:1px solid var(--line)}
+  .edu:first-of-type{border-top:none;padding-top:0}
+  .edu .when{font-size:14px;color:var(--ink-soft)}
+  .edu h3{font-size:16.5px;font-weight:600;margin-bottom:2px}
+  .edu .sub{font-size:14.5px;color:var(--ink-soft)}
+  @media(max-width:640px){.edu{grid-template-columns:1fr;gap:4px}}
+
+  /* Skills */
+  .skillgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  @media(max-width:640px){.skillgrid{grid-template-columns:1fr}}
+  .skillgrid>div{
+    padding:18px 20px;border-radius:12px;background:var(--paper2);
+    border:1px solid var(--line);transition:transform .2s,border-color .2s;
+  }
+  .skillgrid>div:hover{transform:translateY(-4px);border-color:rgba(94,224,176,.4)}
+  .skillgrid h3{font-size:14px;font-weight:600;color:var(--accent);margin-bottom:8px}
+  .skillgrid p{font-size:15px;color:var(--ink-soft);line-height:1.6}
+
+  /* Footer */
+  footer{padding:56px 0 68px;text-align:center}
+  footer p{color:var(--ink-soft);font-size:15px}
+  footer .em{
+    font-family:'Fraunces',serif;font-size:24px;margin-bottom:12px;
+    background:linear-gradient(105deg,var(--accent),var(--accent3),var(--accent2));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  footer a{color:var(--accent);text-decoration:none;transition:color .2s}
+  footer a:hover{color:var(--accent2)}
+  #skills .skillgrid h3,#teaching .skillgrid h3{color:var(--accent3)}
+  #teaching .skillgrid>div:hover{border-color:rgba(255,157,108,.4)}
+
+  /* scroll reveal */
+  .reveal{opacity:0;transform:translateY(22px)}
+  .reveal.in{opacity:1;transform:none;transition:opacity .6s ease,transform .6s ease}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+
+  @media(prefers-reduced-motion:no-preference){
+    header h1,header .lede{animation:rise .7s ease both}
+    header .lede{animation-delay:.12s}
+  }
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <span class="name">Hridita Tiasha</span>
+    <div class="links">
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <h1>Hridita Nur Zaman Tiasha</h1>
+    <div class="role">Data Scientist</div>
+    <p class="lede">Data scientist with four years of industry experience across telecommunications and enterprise sectors in Bangladesh.</p>
+    <div class="meta">
+      <span>Dhaka, Bangladesh</span>
+      <a href="mailto:">Email</a>
+      <a href="tel:+8801711092642">+880 1711 092642</a>
+      <a href="#">GitHub Portfolio</a>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="about reveal">
+  <div class="wrap">
+    <div class="kicker">Overview</div>
+    <h2>About</h2>
+    <p>
+    Hi!! This is Tiasha. I am a data and research professional interested in the intersection of
+    <strong>AI, analytics, language, and human behavior</strong>. My research
+    focuses on <strong>NLP and computational linguistics</strong>, particularly
+    Bengali language technologies, with recent work on explainable sentiment
+    analysis and semantic opacity in Bengali idioms.
+  </p>
+
+  <p>
+    I am especially interested in how <strong>generative AI, language models,
+    and automated translation</strong> are reshaping economic and social
+    outcomes. My long-term goal is to build an interdisciplinary
+    career combining <strong>quantitative methods, technology, business and social
+    science</strong> to study the broader impact of AI.
+  </p>
+  </div>
+</section>
+
+<section id="research" class="reveal">
+  <div class="wrap">
+    <div class="kicker">Peer-reviewed work</div>
+    <h2>Publications</h2>
+
+    <div class="pub">
+      <div class="title">Explainable and Statistically Validated Bangla Sentiment Analysis: A Comparative Study of Classical, Deep Learning, and Transformer Models</div>
+      <div class="venue"><span class="tag acc">Accepted</span> ICCA</div>
+    </div>
+
+    <div class="pub">
+      <div class="title">When Words Fail: Quantifying Semantic Opacity in Bengali Idioms</div>
+      <div class="venue"><span class="tag acc">Accepted</span> COMPASS 2026</div>
+    </div>
+
+    <div class="pub">
+      <div class="title">Geographic Register and Semantic Opacity: A Large-Scale Study of Bangla Idioms</div>
+      <div class="venue"><span class="tag sub">Under review</span> ICCIT 2026</div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="reveal">
+  <div class="wrap">
+    <div class="kicker">Industry</div>
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="when">Aug 2024 — Present</div>
+      <div>
+        <h3>Performance Management Expert</h3>
+        <div class="org">Grameenphone · Bangladesh</div>
+        <ul>
+          <li>Collaborate with internal users and external suppliers to identify pain points, develop joint mitigation plans, and drive solutions through stakeholder alignment.</li>
+          <li>Monitor supplier performance and run governance meetings, sharing insights and regular performance reports.</li>
+          <li>Use data to forecast savings and spot performance improvements, supporting clear, data-driven business decisions.</li>
+          <li>Build Power BI dashboards and automate reports that circulate on a regular schedule.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Mar 2024 — Jul 2024</div>
+      <div>
+        <h3>Senior Engineer, Data Science & Analytics</h3>
+        <div class="org">EDOTCO Group · Malaysia</div>
+        <ul>
+          <li>Collaborated with teams across countries to understand business needs, surface operational problems, and agree on data-driven solutions.</li>
+          <li>Partnered with data and engineering teams to investigate data issues, find root causes, and build solutions using AWS, S3, and Lambda.</li>
+          <li>Worked with stakeholders to spot performance trends and improvement opportunities, then turned analysis into Power BI dashboards and predictive tools.</li>
+          <li>Identified gaps in the billing process with business and technical teams and implemented automation to improve efficiency and reduce manual work.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Jul 2022 — Mar 2024</div>
+      <div>
+        <h3>Specialist, Assurance & Fulfillment</h3>
+        <div class="org">Robi Axiata Limited · Bangladesh</div>
+        <ul>
+          <li>Analyzed large, complex datasets to identify operational issues, performance gaps, and opportunities for improvement.</li>
+          <li>Collaborated with cross-functional teams to understand business and customer challenges and develop data-driven solutions.</li>
+          <li>Built Tableau dashboards to monitor trends, performance indicators, and key business insights, supporting decision-making.</li>
+          <li>Performed ETL with SQL and Python to support analytics, reporting, and operational requirements.</li>
+          <li>Applied clustering to customer-complaint data to identify common issues and root causes, improving service and customer experience.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="reveal">
+  <div class="wrap">
+    <div class="kicker">Academic</div>
+    <h2>Education</h2>
+
+    <div class="edu">
+      <div class="when">2025 — 2026</div>
+      <div>
+        <h3>MSc, Data Science and Analytics</h3>
+        <div class="sub">East West University · ongoing, CGPA 3.96</div>
+      </div>
+    </div>
+
+    <div class="edu">
+      <div class="when">2018 — 2022</div>
+      <div>
+        <h3>BSc, Computer Science and Engineering</h3>
+        <div class="sub">Islamic University of Technology</div>
+      </div>
+    </div>
+
+    <div class="edu">
+      <div class="when">2015 — 2017</div>
+      <div>
+        <h3>Higher Secondary Certificate</h3>
+        <div class="sub">Holy Cross College</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <div class="wrap">
+    <div class="kicker">Methods & tools</div>
+    <h2>Technical Skills</h2>
+    <div class="skillgrid">
+      <div>
+        <h3>Programming</h3>
+        <p>Python (TensorFlow, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn), SQL, R.</p>
+      </div>
+      <div>
+        <h3>Machine Learning & AI</h3>
+        <p>Supervised & unsupervised learning, neural networks, NLP & sentiment analysis, time-series forecasting, clustering, explainable AI (XAI).</p>
+      </div>
+      <div>
+        <h3>Statistical Methods</h3>
+        <p>ARIMA/ARMA/SARIMAX, regression (multinomial logistic, proportional odds), hypothesis testing, cross-sectional study design.</p>
+      </div>
+      <div>
+        <h3>Data Engineering & Cloud</h3>
+        <p>ETL pipelines, AWS (S3, Lambda), data extraction & transformation, automated reporting systems.</p>
+      </div>
+      <div>
+        <h3>Visualization & BI</h3>
+        <p>Tableau, Power BI, Matplotlib, Seaborn.</p>
+      </div>
+      <div>
+        <h3>Research Domains</h3>
+        <p>Telecom analytics, network performance, air-quality forecasting, public-health data, cybersecurity (web vulnerability assessment).</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-## Work Experience
-**Supply Chain Performance Management Expert @ Grameenphone - Finance (_Aug 2024 - Present_)**
-- Inventory Optimization Framework for Telecom Using Demand Forecasting and Inventory Classification 
-- Assemble, Analyze and organize large data generated from system logs.  
-- Visualize data on power BI Dashboards 
-- Automation of reports, which are needed to circulate regularly. 
-- Analyze data to forecast savings, helping with data driven decision making 
-- Developing Machine Learning models to forecast business trend over time.
-  
+<footer id="contact">
+  <div class="wrap">
+    <p class="em">Get in touch</p>
+    <p><a href="mailto:">Email</a> &nbsp;·&nbsp; <a href="tel:+8801711092642">+880 1711 092642</a> &nbsp;·&nbsp; <a href="#">GitHub</a></p>
+  </div>
+</footer>
 
-**Senior Engineer @ Edotco Group Limited - Data Science & Analytics (_Mar 2024 - Aug 2024_)**
-- Using cloud solutions(AWS, S3, Lambda) for data fetching and analysis, EDA for global platform 
-- Data visualization to show trends, important features using POWER BI, Machine Learning Engineering to 
-do predictions  
-- Collaborating with the data architects, engineers,analysts, and scientists of different countries. 
-- Image processing to automate billing systems.
-  
-**Specialist @ Robi Axiata Limited - Assurance & Fulfilment (_July 2022 - Mar 2024_)**
-- Assemble, analyze, and organize large, complex data with Analytical and problem solving abilities.  
-- Real life clustering and prediction using machine learning models. 
-- Data visualization to show trends, important features using TABLEAU and using Machine Learning 
-Engineering to do predictions  
-- Extraction, transformation, and loading of data using SQL, Python along with Application development and 
-tools management.
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
 
-## Projects
-### Security Awareness Dashboard
-
-SecurePulse is a Python-based cybersecurity awareness and risk monitoring project that simulates enterprise security data to evaluate an organization's security posture. Using Python libraries such as Pandas, NumPy, and Matplotlib, the project generates and analyzes employee security metrics, including phishing simulation results, security training completion, risk scores, and departmental cyber risk.
-
-The dashboard visualizes key security KPIs, monthly risk trends, phishing failure rates, department-wise risk comparisons, and a risk heatmap, enabling organizations to monitor the effectiveness of security awareness initiatives and identify high-risk areas. The project demonstrates the use of Python for cybersecurity data analysis, reporting, and decision support in an Information Security Management (ISMS) context.
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/7bd0865e-768b-435d-969f-5c1256df13c0" width="500"/>
-</div>  
-  <br>
-### Customer Churn Prediction
-[Churn Prediction](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)  
-This project walks through a full machine learning pipeline using the Telecommunication dataset. It begins with data exploration and preprocessing, including handling missing values, converting data types, encoding categorical variables, and scaling numerical features. Exploratory analysis reveals that customers with month-to-month contracts, higher monthly charges, or fiber optic internet are more likely to churn, while long-tenure customers and those with bundled services are more likely to stay. Various classification models like logistic regression, random forest, and gradient boosting are trained and evaluated using accuracy, F1-score, and ROC-AUC, achieving strong performance. The notebook highlights the value of churn prediction in identifying high-risk customers and enabling businesses to take proactive retention measures.  
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/86d66060-516d-4cb0-bc14-964845a34902" width="500"/>
-  <img src="https://github.com/user-attachments/assets/4094d213-b2a0-4971-aa40-65de3613e6a7" width="500"/>
-  <img src="https://github.com/user-attachments/assets/6a7d5503-7694-4c9a-8f0c-8bc76bad33e7" width="500"/>
-</div>  
-  <br>
-  
-### Time Series Forecasting
-[Beijing Air Pollution Prediction](https://colab.research.google.com/drive/1hww8gPPFgfT0I5in6KNDrx-CK1eg-gDd?usp=sharing)  
-It is a complete deep learning-based approach to time series forecasting using an LSTM model. The dataset is loaded and processed by converting the datetime column to a proper datetime index, handling missing values with forward fill, and ensuring the data is in a continuous time series format. It visualizes trends and seasonality in the data to better understand its structure. The values are normalized using MinMaxScaler to scale features between 0 and 1, which is critical for stable LSTM training. The data is then split into training and testing sets without shuffling, and a custom function is defined to convert the time series into supervised learning format by creating sequences of past values as input to predict the next value. An LSTM model is constructed using Keras Sequential API with LSTM and Dense layers, compiled with the mean_squared_error loss and adam optimizer. The model is trained using model.fit(), and predictions are made on the test set. The predicted results are compared visually and evaluated using mean_squared_error. Finally, the model is used for multi-step future forecasting by iteratively feeding back predicted values, showcasing the model's ability to forecast beyond the available data range.
-
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/ff63451f-4752-4878-9e33-e08da11b1527" width="500"/>
-  <img src="https://github.com/user-attachments/assets/956e7ced-c56c-4d51-8f5e-6ee8474d8dc0" width="500" />
-</div>  
-<br>
-    
-### Bangla & English Image to Text
-[Image to Text](https://colab.research.google.com/drive/1VJySmmj3wHxRfs_6pzb5F0KYK1OD0wyC?usp=sharing)
-
-This project shows how to perform Optical Character Recognition (OCR) on mixed Bengali and English text using pytesseract, a Python wrapper for Tesseract OCR. It guides through setting up Bengali language support by installing the ben.traineddata model, configuring Tesseract to recognize Bengali (lang='ben') as well as English, and processing sample book-page images. The workflow includes preprocessing steps like image cleaning and setting up the correct tessdata directory, followed by invoking pytesseract.image_to_string() to extract multilingual text from input images. It's an applied example of extending Tesseract’s default English OCR to handle Bengali script effectively.   
-
-<br>
-
-    
-### Machine Learning Algorithms Using Python
-[Machine Learning Algorithms](https://www.kaggle.com/work/collections/16287124?privacy=public&owner=owns)
-This is a collection of python codes of making machine learning algorithms from scratch for learning purpose.    
-
-<br>
-    
-### Web Scraping: Hourly Weather Data for Bangladesh
-[Hourly Weather Data for Bangladesh](https://colab.research.google.com/drive/1TftZPDQ4bkrb4Ygg7ke1Bm56MPejJxTo?usp=sharing)  
-This Colab notebook focuses on web scraping and data visualization related to electricity imports and fuel sources. It uses tools like requests and BeautifulSoup to extract data on electricity imports from neighboring countries such as India and Nepal, as well as the contributions of different fuel sources like gas, coal, hydro, and solar. After cleaning and organizing the data, the notebook visualizes trends over time using line and bar charts to highlight import volumes and the share of various energy sources. These visualizations provide insights into energy dependency patterns, seasonal shifts in fuel usage, and the role of each country in electricity imports.  
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-<img src="https://github.com/user-attachments/assets/5fcfcb8e-3c2b-4f7f-b1c1-3951ea19006a" width="500" height = "200" />
-<img src="https://github.com/user-attachments/assets/a05a326e-4b41-46f1-bd2a-f2c18d20df70" width="500" height = "200"/>
-
-</div>
-
-<br>
-
-    
-
-### Tableau Development
-[The Rise of Android in 2008-14](https://public.tableau.com/app/profile/hridita.tiasha/viz/TheRiseofAndroid2008-14_17535284176230/TheRiseofAndroidin2008-14)
-
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/906c6206-5d57-4003-a353-b246aecb69e8" width="500"/>
-  <img src="https://github.com/user-attachments/assets/daed2800-3970-4f57-a41f-bed80864017e" width="500" />
-
-</div>
-
-<br>
-    
-[Bangladesh](https://public.tableau.com/app/profile/hridita.tiasha/viz/Bangladesh_17535288902940/Dashboard1)
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/d367eef6-8938-437d-b191-29494cf5a42d" width="300" />
-</div>
-
-<br>
-    
-
-## Certifications  
-- [Hackerrank: SQL Intermidiate](https://www.hackerrank.com/certificates/d29b94a7b6d3)				       		
-- [Hackerrank: Python Basic](https://www.hackerrank.com/certificates/4c2874f1a4b7)
-<br>
-
-    
-## Competitions  
-- Runners up at the Category LFR in Essonance(2019)
-- Runners up at the Category LFR in Mecceleration(2019)	 			        		
-	
-
-
-
-## Education
-- M.Sc, Data Science & analytics  | East West University (_Ongoing_)	
-- B.Sc, Computer Science & Engineering  | Islamic University of Technology (_May 2022_)			       		
-- H.S.C, Science			| Holy Cross College (_June 2017_)	 			        	
-- S.S.C, Science 			| Jhikargacha GOVT ML High School (_June 2015_)
+</body>
+</html>
